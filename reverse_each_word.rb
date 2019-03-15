@@ -8,7 +8,6 @@ def reverse_each_word(sentence1)
     reversed_sentence = word.reverse
 
     reverse << reversed_sentence
-binding.pry
     end
     puts "#{reverse.join(" ")}"
 end
