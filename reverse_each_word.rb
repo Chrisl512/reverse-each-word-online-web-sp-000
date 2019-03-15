@@ -10,6 +10,7 @@ def reverse_each_word(sentence1)
     reverse << reversed_sentence
 binding.pry
     end
+    puts "#{reverse.join(" ")}"
 end
 
 #def reverse_string(string)
